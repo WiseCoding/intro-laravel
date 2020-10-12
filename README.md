@@ -1,61 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h2 align="center"><b>PHP Laravel Intro</b></h2>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img alt="Version" src="https://img.shields.io/badge/VSCODE-black?style=flat&logo=visual-studio-code" />
+  <img alt="Version" src="https://img.shields.io/badge/PHP-purple?style=flat&logo=php" />
+  <img alt="Version" src="https://img.shields.io/badge/Laravel-purple?style=flat&logo=laravel" />
+  <a href="https://github.com/WiseCoding/intro-laravel/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/WiseCoding/intro-laravel" />
+  </a>
 </p>
+<h1 align="center">
+  <a href="https://php-intro-laravel.herokuapp.com/" target="_blank">🌐 Live</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://github.com/WiseCoding/intro-laravel#readme" target="_blank">📂 Repo</a>
+</h1>
 
-## About Laravel
+# Assignment 📝
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> A local restaurant has seen a decline in the number of clients in the past year. They decided to hire a new chef, renovate the furniture and develop a new menu.
+> They could wait a few months to see if the changes work, but they would like some feedback earlier. They ask you to build them a simple website to collect reviews from the new clients.
+> They believe in radical transparency, so they want all the reviews to be publicly accessible.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+> [Solo Assignment](https://github.com/becodeorg/gnt-yu-3-21/tree/master/3.The-Mountain/7.Laravel/1.Getting-Started) by [BeCode](https://becode.org/) 🎓
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## _Must-have features_
 
-## Learning Laravel
+-   The website will have 2 pages: Home, and Reviews
+-   The home page will show a few pictures of the restaurant (tip: get some from Unsplash), and a menu (tip: it's a minimalist menu with only 3 choices of meal, no drinks, and no desserts 🤷‍♂️)
+-   The Reviews page will have a form to collect reviews with: name of the reviewer (required), 1-5 star choice (required), comment (optional)
+-   Under the form, the Reviews page will show the last 10 reviews submitted
+-   The header of both pages will contain the restaurant's logo (tip: create one on https://hatchful.shopify.com/) and the links to the two pages (Home and Reviews)
+-   The footer of both pages will contain the restaurant's address and opening hours
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# The Team 👥
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   [👨🏼‍💻Mattias](https://github.com/WiseCoding/)
 
-## Laravel Sponsors
+# Built with 🛠
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+-   [Visual Studio Code](https://code.visualstudio.com/)
+-   [Markdown](https://www.markdownguide.org/)
+-   [Tailwind](https://tailwindcss.com/)
+-   [PHP](https://www.php.net/)
+-   [Laravel](https://laravel.com/)
 
-### Premium Partners
+# License 📎
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Copyright © 2020 [Mattias](https://github.com/WiseCoding).<br />
+This project is [MIT](https://github.com/WiseCoding/intro-laravel/blob/master/LICENSE) licensed.
