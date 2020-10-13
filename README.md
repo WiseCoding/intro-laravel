@@ -8,6 +8,7 @@
     <img alt="License: MIT" src="https://img.shields.io/github/license/WiseCoding/intro-laravel" />
   </a>
 </p>
+
 <h1 align="center">
   <a href="https://php-intro-laravel.herokuapp.com/" target="_blank">🌐 Live</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -28,7 +29,7 @@
 -   The home page will show a few pictures of the restaurant (tip: get some from Unsplash), and a menu (tip: it's a minimalist menu with only 3 choices of meal, no drinks, and no desserts 🤷‍♂️)
 -   The Reviews page will have a form to collect reviews with: name of the reviewer (required), 1-5 star choice (required), comment (optional)
 -   Under the form, the Reviews page will show the last 10 reviews submitted
--   The header of both pages will contain the restaurant's logo (tip: create one on https://hatchful.shopify.com/) and the links to the two pages (Home and Reviews)
+-   The header of both pages will contain the restaurant's logo and the links to the two pages (Home and Reviews)
 -   The footer of both pages will contain the restaurant's address and opening hours
 
 # The Team 👥
