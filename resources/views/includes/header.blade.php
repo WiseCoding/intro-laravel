@@ -1,10 +1,18 @@
 <footer class="fixed top-0 w-full">
-  <div class="sm:justify-around flex flex-wrap items-center justify-center p-8 text-center text-gray-600 bg-blue-100 shadow-inner">
-    <img class="sm:inline hidden h-48" src="./img/logo_banner.png" alt="Restaurant logo" title="Restaurant logo" />
-    <h1 class="color font-sans text-4xl font-light">Eat with your mind 🧠</h1>
-    <ul>
-      <li href="./home" title="Order some food" class="cursor-pointer">Menu</li>
-      <li href="./reviews" title="Check out our reviews" class="cursor-pointer">Reviews</li>
-    </ul>
-  </div>
-</header>
+    <div
+        class="sm:justify-around bg-logo-blue flex flex-wrap items-center justify-center text-center text-gray-400 shadow-lg">
+        <img class="md:inline hidden h-48" src="./img/logo_banner.png" alt="Restaurant logo" title="Restaurant logo" />
+        <div>
+            <h1 class="color md:text-4xl lg:text-5xl md:my-0 my-4 text-3xl font-thin"
+                title="Or with your mouth, the choice is yours!">Food for thought 🧠</h1>
+            <ul class="md:mt-8 flex flex-wrap justify-center m-2">
+                <a href="./" title="Order some food"
+                    class="px-3 hover:text-white py-1 mx-2 font-bold cursor-pointer {{ Request::path() === '/' ? 'text-white underline' : 'text-gray-300' }}">Menu</a>
+                <a href="./reviews" title="Check out our reviews"
+                    class="hover:text-white px-3 py-1 mx-2 font-bold cursor-pointer {{ Request::path() === 'reviews' ? 'text-white underline' : 'text-gray-300' }}">Reviews</a>
+            </ul>
+        </div>
+    </div>
+    </header>
+
+    {{-- //TODO Header: Restaurants logo, links to the 2 pages --}}
