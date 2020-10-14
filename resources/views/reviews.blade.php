@@ -1,10 +1,5 @@
-<?php
-
-declare(strict_types=1);
-
-//TODO Header: Restaurants logo, links to the 2 pages
-// include './header.blade.php';
-
+<!-- <!-- //TODO show a few pictures of the restaurant (unsplash) -->
+<!-- //TODO has to show a menu, 3 meals -->
 
 
 //TODO Header: Restaurants logo, links to the 2 pages
@@ -16,13 +11,3 @@ declare(strict_types=1);
 // comment (optional)
 
 // Under the form, the Reviews page will show the last 10 reviews submitted
-
-
-
-
-
-
-
-
-//TODO Footer: Restaurants address, opening hours
-// include './footer.blade.php';
