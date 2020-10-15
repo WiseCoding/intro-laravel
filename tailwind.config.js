@@ -6,12 +6,11 @@ module.exports = {
         standardFontWeights: true
     },
     purge: {
-        enabled: false, //toggle
+        enabled: true, //toggle
         content: [
-            "./*.php",
-            "./model/*.php",
-            "./view/*.php",
-            "./controller/*.php"
+            "./resources/views/*.php",
+            "./resources/views/*/*.php",
+            "./resources/views/*/*.php"
         ]
     },
     theme: {

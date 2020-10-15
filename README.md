@@ -9,11 +9,11 @@
   </a>
 </p>
 
-<h1 align="center">
+<h2 align="center">
   <a href="https://php-intro-laravel.herokuapp.com/" target="_blank">🌐 Live</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://github.com/WiseCoding/intro-laravel#readme" target="_blank">📂 Repo</a>
-</h1>
+</h2>
 
 # Assignment 📝
 
