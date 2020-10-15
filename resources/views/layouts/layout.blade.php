@@ -14,7 +14,7 @@
     @include('includes.header')
 
     <!-- MAIN -->
-    <div class="container relative mx-auto text-center">
+    <div class="relative mx-auto text-center">
         @yield('menu')
         @yield('reviews')
     </div>
