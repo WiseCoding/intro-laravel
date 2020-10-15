@@ -1,4 +1,4 @@
-<footer class="w-full">
+<footer class="fixed bottom-0 w-full">
     <div
         class="sm:justify-around bg-logo-blue md:text-base flex flex-wrap justify-center p-2 py-6 text-sm text-center text-gray-400 shadow-lg">
         <div class="sm:justify-center flex flex-wrap justify-center mx-2">

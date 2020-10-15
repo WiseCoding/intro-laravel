@@ -4,14 +4,14 @@
 {{-- MENU --}}
 <div class="sm:my-16 my-8">
     <h1 class="font-mono text-xl">Dishes</h1>
-    <div class="sm:flex-no-wrap flex flex-wrap items-stretch justify-center">
+    <div class="md:flex-no-wrap flex flex-wrap items-stretch justify-center">
         <div
             class="sm:m-1 sm:rounded-lg hover:shadow-lg sm:max-w-xs flex items-center justify-between w-full p-1 my-1 bg-white shadow-md cursor-pointer">
             <p class="hover:text-black m-4 text-gray-700">Avocado</p>
             <img src="./img/dish/advocado.jpg" alt="Advocado dish" class="object-cover w-40 h-20 rounded-lg">
         </div>
         <div
-            class="sm:m-1 sm:rounded-lg hover:shadow-lg sm:max-w-xs flex items-center justify-between w-full p-1 my-1 bg-white shadow-md cursor-pointer">
+            class="sm:m-1 sm:rounded-lg hover:shadow-lg sm:max-w-xs flex items-center justify-between w-full p-1 my-1 overflow-hidden bg-white shadow-md cursor-pointer">
             <p class="hover:text-black m-4 text-gray-700">Salad</p>
             <img src="./img/dish/salad.jpg" alt="Salad dish" class="object-cover w-40 h-20 rounded-lg">
         </div>
