@@ -85,5 +85,3 @@
 </div>
 
 @endsection
-
-{{-- // Under the form, the Reviews page will show the last 10 reviews submitted --}}

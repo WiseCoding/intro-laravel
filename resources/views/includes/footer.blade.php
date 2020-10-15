@@ -1,12 +1,12 @@
-<footer class="fixed bottom-0 w-full">
+<footer class="w-full">
     <div
         class="sm:justify-around bg-logo-blue md:text-base flex flex-wrap justify-center p-2 py-6 text-sm text-center text-gray-400 shadow-lg">
         <div class="sm:justify-center flex flex-wrap justify-center mx-2">
-            <p class=" mx-1 font-sans cursor-wait"
-                title="We are open from 9 in the morning until 8 in the evening, 6days a week!">Open from <b>09</b>:00
+            <p class=" mx-1 font-sans" title="We are open from 9 in the morning until 8 in the evening, 6days a week!">
+                Open from <b>09</b>:00
                 till
                 <b>20</b>:00.</p>
-            <p class="mx-1 font-sans cursor-wait" title="We are taking a break on Monday, zZzZz...">Closed on
+            <p class=" mx-1 font-sans" title="We are taking a break on Monday, zZzZz...">Closed on
                 <b>Monday</b>.
             </p>
         </div>

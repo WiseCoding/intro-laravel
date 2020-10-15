@@ -5,14 +5,11 @@ module.exports = {
         defaultLineHeights: true,
         standardFontWeights: true
     },
-    purge: {
-        enabled: true, //toggle
-        content: [
-            "./resources/views/*.php",
-            "./resources/views/*/*.php",
-            "./resources/views/*/*.php"
-        ]
-    },
+    purge: [
+        "./resources/views/*.php",
+        "./resources/views/*/*.php",
+        "./resources/views/*/*.php"
+    ],
     theme: {
         extend: {
             colors: {
