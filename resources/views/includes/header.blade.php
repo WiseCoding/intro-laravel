@@ -1,4 +1,4 @@
-<footer class="fixed top-0 w-full">
+<header class="top-0 w-full">
     <div
         class="sm:justify-around bg-logo-blue flex flex-wrap items-center justify-center text-center text-gray-400 shadow-lg">
         <img class="md:inline hidden h-48" src="./img/logo_banner.png" alt="Restaurant logo" title="Restaurant logo" />
@@ -13,6 +13,4 @@
             </ul>
         </div>
     </div>
-    </header>
-
-    {{-- //TODO Header: Restaurants logo, links to the 2 pages --}}
+</header>

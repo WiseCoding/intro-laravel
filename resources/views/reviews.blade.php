@@ -2,7 +2,7 @@
 
 @section('reviews')
 
-<div class="sm:my-16 pb-6 my-8 shadow-lg">
+<div class="sm:my-16 pb-6 my-8">
     <h1 class="font-mono text-xl">Rate us 🥗</h1>
     <form action="/reviews" method="POST" class="">
         @csrf
@@ -33,7 +33,7 @@
             <label for="message" class="sm:block hidden mb-1 font-thin text-gray-600 cursor-pointer">Message
                 (optional)</label>
             <textarea rows="2" type="message" name="message" id="message" placeholder="Add a message..."
-                class="focus:outline-none focus:shadow-inner focus:border-blue-700 hover:shadow-lg w-full max-w-lg px-4 py-2 leading-tight text-gray-700 rounded-lg shadow-md appearance-none">I loved it!</textarea>
+                class="focus:outline-none focus:shadow-inner focus:border-blue-700 hover:shadow-lg w-full max-w-lg px-4 py-2 leading-tight text-gray-700 rounded-lg shadow-md appearance-none"></textarea>
         </div>
 
         <!-- BUTTON -->

@@ -9,7 +9,7 @@ class ReviewsController
 {
     public function index()
     {
-        $posts = Reviews::all();
+        $posts = Reviews::orderBy('id', 'DESC')->get();
         return view('reviews', ['posts' => $posts]);
     }
     public function show()
