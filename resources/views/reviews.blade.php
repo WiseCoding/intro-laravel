@@ -10,7 +10,7 @@
         <!-- RATING -->
         <div class="my-2">
             <select name="rating" id="rating"
-                class="hover:shadow-md hover:bg-white focus:outline-none p-1 text-2xl text-center bg-gray-200 rounded-full appearance-none cursor-pointer">
+                class="hover:shadow-md hover:scale-125 hover:bg-white focus:outline-none p-1 text-2xl text-center duration-500 ease-in-out transform bg-gray-200 rounded-full appearance-none cursor-pointer">
                 <option value="1" title="Horrible 🤮! My bathwater has more nutrients than this food...🛁">⭐️</option>
                 <option value="2" title="I had to binge a pack of menthos to get rid of the taste.🦴">⭐️⭐️</option>
                 <option value="3" title="Average opinion, just like my life. Average is life? ☯️">⭐️⭐️⭐️</option>
@@ -63,7 +63,7 @@
                     value="{{ $post->id }}" name="delete" title="Delete this entry">ⓧ</button>
             </form>
             {{-- RATING --}}
-            <p class="mb-2 font-mono text-xl font-bold"
+            <p class="hover:scale-110 mb-2 font-mono text-xl font-bold duration-300 ease-in-out transform"
                 title="{{ $post->name }} has given our food a rating of {{ $post->rating }} stars">
                 @for ($i = 0; $i < $post->rating; $i++)
                     ⭐️
