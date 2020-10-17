@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en" class="relative h-full p-0 m-0">
 
 <head>
     <meta charset="utf-8">
@@ -9,12 +10,12 @@
 </head>
 
 
-<body class="box-border bg-gray-200">
+<body class="box-border relative flex flex-col h-full p-0 m-0 bg-gray-200">
     <!-- HEADER -->
     @include('includes.header')
 
     <!-- MAIN -->
-    <div class="container relative mx-auto text-center">
+    <div class="container relative flex-grow row-span-4 row-start-2 mx-auto text-center">
         @yield('menu')
         @yield('reviews')
     </div>

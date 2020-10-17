@@ -47,7 +47,7 @@
 
 
 <!-- POSTS -->
-<div class="sm:my-16 w-full p-5 my-8">
+<div class="sm:my-16 w-full my-8">
     <h1 class="font-mono text-xl">Reviews</h1>
     @foreach ($posts as $post)
     <div class="m-4">
