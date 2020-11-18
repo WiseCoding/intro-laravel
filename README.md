@@ -1,4 +1,4 @@
-<h2 align="center"><b>PHP Laravel Intro</b></h2>
+<h2 align="center"><b>PHP Laravel Intro </b></h2>
 
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/VSCODE-black?style=flat&logo=visual-studio-code" />
